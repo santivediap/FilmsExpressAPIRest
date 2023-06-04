@@ -20,7 +20,7 @@ const deleteFilm = async (req, res) => {
 } 
 
 const editFilm = async (req, res) => {
-    res.status(200).json({id, message: `Se ha borrado ${req.body.title}`});
+    res.status(200).json({message: `Se ha editado ${req.params.title}`});
 }
 
 
